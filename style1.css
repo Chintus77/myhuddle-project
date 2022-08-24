@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css? family=open+sans:400,700|poppins:600% display=swap");
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sans",sans-serif;
+    margin: 0%;
+}
+
+h1,
+h2{
+    font-family: "poppins",sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    border-radius: 50px;
+    background-color: #fff;
+    border: none ;
+    box-shadow: 0 0 10px rgba(223, 214, 214, 0.932);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+}
+.btn-primary{
+    background-color: hsl(332, 100%, 66%);
+    color: #fff;
+}
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex > div{
+    flex: 1;
+}
+
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    margin: 40px 0;
+    padding: 60px;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    margin: bottom 40px;
+    z-index: 1;
+
+}
+
+.box{
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.15);
+    margin: 40px 0;
+    padding: 60px;
+}
+
+.small-box{
+    display: inline-block;
+}
+
+.box img{
+    width: 80%;
+}
+
+
+
+.small-box{
+    display: inline-block;
+    position: relative;
+    margin-bottom: -50%;
+    z-index: 1;
+}
+.box img{
+    width: 80%;
+}
+
+footer{
+    background-color::blueviolet
+    color: rgb(241, 231, 231)20, 18, 18);
+    padding: 180px 0 60px;
+    position: relative; 
+    
+}
+
+footer ul li{
+    margin-bottom: 20px;
+}
+
+footer .circle{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px ;
+}
